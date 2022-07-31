@@ -1,0 +1,274 @@
+Analysis & Elaboration report for Servo
+Sat Jul 30 14:48:22 2022
+Quartus II 64-Bit Version 12.0 Build 178 05/31/2012 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Parallel Compilation
+  3. Partition Status Summary
+  4. Dependent File Changes for Partition Top
+  5. Partition Dependent Files
+  6. Analysis & Synthesis Summary
+  7. Analysis & Elaboration Settings
+  8. SignalTap II Logic Analyzer Settings
+  9. Analysis & Elaboration Messages
+ 10. Analysis & Elaboration Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     1 processor            ; 100.0%      ;
+;     2-16 processors        ;   0.0%      ;
++----------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------+
+; Partition Status Summary                                                                 ;
++--------------------------------+-------------------------------+-------------------------+
+; Partition Name                 ; Requires Analysis & Synthesis ; Reason                  ;
++--------------------------------+-------------------------------+-------------------------+
+; Top                            ; yes                           ; Dependent files changed ;
+; sld_signaltap:auto_signaltap_0 ; no                            ; No relevant changes     ;
+; sld_hub:auto_hub               ; no                            ; No relevant changes     ;
++--------------------------------+-------------------------------+-------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Dependent File Changes for Partition Top                                                                               ;
++-----------+-----------+-------------------+----------+--------------------------------+--------------------------------+
+; Hierarchy ; File Name ; Relative Location ; Change   ; Old                            ; New                            ;
++-----------+-----------+-------------------+----------+--------------------------------+--------------------------------+
+; |         ; Servo_2.v ; Project Directory ; Checksum ; 619d4d2ff853de75bc96176119ebda ; 276623181cddb7d1765e14bc3a7b5b ;
++-----------+-----------+-------------------+----------+--------------------------------+--------------------------------+
+
+
++---------------------------------------------------------------------------------+
+; Partition Dependent Files                                                       ;
++----------------+-------------------+---------+----------------------------------+
+; File           ; Location          ; Library ; Checksum                         ;
++----------------+-------------------+---------+----------------------------------+
+; bin2bcd.v      ; Project Directory ; work    ; e815c57d1d4a4e533d4263b4b18ac17  ;
+; clk_divider.v  ; Project Directory ; work    ; 749821c0e7f1d774c9695b29c9220f2  ;
+; counter.v      ; Project Directory ; work    ; 23beff52e39628ca5ab1b36d26463cc1 ;
+; Decoder_7SEG.v ; Project Directory ; work    ; d7f22644ef417f92d9eee79b03c43    ;
+; Servo_2.v      ; Project Directory ; work    ; 276623181cddb7d1765e14bc3a7b5b   ;
+; servo_mux.v    ; Project Directory ; work    ; a7e2119dec5cfd4ace1d831a720e9ac  ;
++----------------+-------------------+---------+----------------------------------+
+
+
++--------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                   ;
++------------------------------------+-------------------------------------------+
+; Analysis & Elaboration Status      ; Successful - Sat Jul 30 14:48:22 2022     ;
+; Quartus II 64-Bit Version          ; 12.0 Build 178 05/31/2012 SJ Full Version ;
+; Revision Name                      ; Servo                                     ;
+; Top-level Entity Name              ; Servo_2                                   ;
+; Family                             ; Cyclone III                               ;
+; Total logic elements               ; N/A until Partition Merge                 ;
+;     Total combinational functions  ; N/A until Partition Merge                 ;
+;     Dedicated logic registers      ; N/A until Partition Merge                 ;
+; Total registers                    ; N/A until Partition Merge                 ;
+; Total pins                         ; N/A until Partition Merge                 ;
+; Total virtual pins                 ; N/A until Partition Merge                 ;
+; Total memory bits                  ; N/A until Partition Merge                 ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                 ;
+; Total PLLs                         ; N/A until Partition Merge                 ;
++------------------------------------+-------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                                      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP3C16F484C6       ;                    ;
+; Top-level entity name                                                      ; Servo_2            ; Servo              ;
+; Family name                                                                ; Cyclone III        ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; SignalTap II Logic Analyzer Settings                                                                                                                                                                                                                                    ;
++----------------+------------------+---------------------+------------------+--------------+----------+------------------------+----------------------+--------------------+-----------------------------+-----------------+------------------+--------------------------+
+; Instance Index ; Instance Name    ; Trigger Input Width ; Data Input Width ; Sample Depth ; Segments ; Storage Qualifier Type ; Trigger Flow Control ; Trigger Conditions ; Advanced Trigger Conditions ; Trigger In Used ; Trigger Out Used ; Power-Up Trigger Enabled ;
++----------------+------------------+---------------------+------------------+--------------+----------+------------------------+----------------------+--------------------+-----------------------------+-----------------+------------------+--------------------------+
+; 0              ; auto_signaltap_0 ; 16                  ; 16               ; 64           ; 1        ; continuous             ; sequential           ; 1                  ; 0                           ; no              ; no               ; no                       ;
++----------------+------------------+---------------------+------------------+--------------+----------+------------------------+----------------------+--------------------+-----------------------------+-----------------+------------------+--------------------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Elaboration
+    Info: Version 12.0 Build 178 05/31/2012 SJ Full Version
+    Info: Processing started: Sat Jul 30 14:48:20 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Servo -c Servo --analysis_and_elaboration
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file servo_mux.v
+    Info (12023): Found entity 1: servo_mux
+Info (12021): Found 1 design units, including 1 entities, in source file servo_2.v
+    Info (12023): Found entity 1: Servo_2
+Info (12021): Found 1 design units, including 1 entities, in source file counter.v
+    Info (12023): Found entity 1: counter
+Info (12021): Found 1 design units, including 1 entities, in source file clk_divider.v
+    Info (12023): Found entity 1: clk_divider
+Info (12021): Found 1 design units, including 1 entities, in source file bin2bcd.v
+    Info (12023): Found entity 1: bin2bcd
+Info (12021): Found 1 design units, including 1 entities, in source file decoder_7seg.v
+    Info (12023): Found entity 1: Decoder_7SEG
+Info (12127): Elaborating entity "Servo_2" for the top level hierarchy
+Info (12128): Elaborating entity "clk_divider" for hierarchy "clk_divider:u0"
+Info (12128): Elaborating entity "counter" for hierarchy "counter:u1"
+Info (12128): Elaborating entity "servo_mux" for hierarchy "servo_mux:u2"
+Info (12128): Elaborating entity "bin2bcd" for hierarchy "bin2bcd:u6"
+Warning (10230): Verilog HDL assignment warning at bin2bcd.v(13): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at bin2bcd.v(19): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at bin2bcd.v(21): truncated value with size 32 to match size of target (4)
+Info (12128): Elaborating entity "Decoder_7SEG" for hierarchy "Decoder_7SEG:u3"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_3t14.tdf
+    Info (12023): Found entity 1: altsyncram_3t14
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_hrc.tdf
+    Info (12023): Found entity 1: mux_hrc
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_4uf.tdf
+    Info (12023): Found entity 1: decode_4uf
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_6fi.tdf
+    Info (12023): Found entity 1: cntr_6fi
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_n3j.tdf
+    Info (12023): Found entity 1: cntr_n3j
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_3fi.tdf
+    Info (12023): Found entity 1: cntr_3fi
+Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_hfc.tdf
+    Info (12023): Found entity 1: cmpr_hfc
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_p1j.tdf
+    Info (12023): Found entity 1: cntr_p1j
+Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_efc.tdf
+    Info (12023): Found entity 1: cmpr_efc
+Info (12033): Analysis and Synthesis generated SignalTap II or debug node instance "auto_signaltap_0"
+Info (12205): 1 design partition requires Analysis and Synthesis
+    Info (12211): Partition "Top" requires synthesis because there were changes to its dependent source files
+Info (12208): 2 design partitions do not require synthesis
+    Info (12229): Partition "sld_signaltap:auto_signaltap_0" does not require synthesis because there were no relevant design changes
+    Info (12229): Partition "sld_hub:auto_hub" does not require synthesis because there were no relevant design changes
+Info (144001): Generated suppressed messages file D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/Quartus_projects/SERVO/Servo.map.smsg
+Info: Quartus II 64-Bit Analysis & Elaboration was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4603 megabytes
+    Info: Processing ended: Sat Jul 30 14:48:22 2022
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++--------------------------------------------+
+; Analysis & Elaboration Suppressed Messages ;
++--------------------------------------------+
+The suppressed messages can be found in D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/Quartus_projects/SERVO/Servo.map.smsg.
+
+

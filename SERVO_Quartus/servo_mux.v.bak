@@ -1,0 +1,44 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    23:40:54 07/27/2022 
+// Design Name: 
+// Module Name:    servo_mux 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module servo_mux(output wire [7:0] servo_control,
+input s,[7:0] from_counter , from_switch 
+    );
+assign servo_control = (s == 1'b 0) ? from_counter :
+                       (s == 1'b 1) ? from_switch :
+                        1'bx;
+endmodule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

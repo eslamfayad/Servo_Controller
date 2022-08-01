@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Sun Jul 31 21:41:57 2022
+Quartus II 64-Bit Version : 12.0 Build 178 05/31/2012 SJ Full Version
+Revision Name : Servo
+Top-level Entity Name : Servo_2
+Family : Cyclone III
+Total logic elements : 747
+    Total combinational functions : 504
+    Dedicated logic registers : 509
+Total registers : 509
+Total pins : 42
+Total virtual pins : 0
+Total memory bits : 1,024
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

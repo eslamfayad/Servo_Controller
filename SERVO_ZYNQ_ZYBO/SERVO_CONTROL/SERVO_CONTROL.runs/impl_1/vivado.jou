@@ -2,11 +2,11 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Fri Jul 29 15:54:21 2022
-# Process ID: 2648
-# Current directory: D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/SERVO_CONTROL/SERVO_VIVADO/SERVO_CONTROL/SERVO_CONTROL.runs/impl_1
+# Start of session at: Mon Aug  1 23:21:36 2022
+# Process ID: 21388
+# Current directory: D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/SERVO_CONTROL/Servo_Controller_Verilog/SERVO_ZYNQ_ZYBO/SERVO_CONTROL/SERVO_CONTROL.runs/impl_1
 # Command line: vivado.exe -log Servo_2.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Servo_2.tcl -notrace
-# Log file: D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/SERVO_CONTROL/SERVO_VIVADO/SERVO_CONTROL/SERVO_CONTROL.runs/impl_1/Servo_2.vdi
-# Journal file: D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/SERVO_CONTROL/SERVO_VIVADO/SERVO_CONTROL/SERVO_CONTROL.runs/impl_1\vivado.jou
+# Log file: D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/SERVO_CONTROL/Servo_Controller_Verilog/SERVO_ZYNQ_ZYBO/SERVO_CONTROL/SERVO_CONTROL.runs/impl_1/Servo_2.vdi
+# Journal file: D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/SERVO_CONTROL/Servo_Controller_Verilog/SERVO_ZYNQ_ZYBO/SERVO_CONTROL/SERVO_CONTROL.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source Servo_2.tcl -notrace

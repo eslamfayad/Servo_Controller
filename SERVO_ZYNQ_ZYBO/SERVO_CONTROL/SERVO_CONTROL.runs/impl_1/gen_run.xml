@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1659102765">
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1659388888">
   <File Type="BITSTR-BMM" Name="Servo_2_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="Servo_2_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="Servo_2_timing_summary_init.rpt"/>

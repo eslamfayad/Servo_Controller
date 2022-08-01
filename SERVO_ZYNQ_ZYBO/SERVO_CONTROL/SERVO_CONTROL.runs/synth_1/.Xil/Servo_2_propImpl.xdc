@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/SERVO_CONTROL/SERVO_VIVADO/SERVO_CONTROL/Zybo-Master.xdc rfile:../../../Zybo-Master.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/SERVO_CONTROL/Servo_Controller_Verilog/SERVO_ZYNQ_ZYBO/SERVO_CONTROL/Zybo-Master.xdc rfile:../../../Zybo-Master.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN L16   IOSTANDARD LVCMOS33 } [get_ports { clk_120 }]; #IO_L11P_T1_SRCC_35 Sch=sysclk
 set_property src_info {type:XDC file:1 line:10 export:INPUT save:INPUT read:READ} [current_design]

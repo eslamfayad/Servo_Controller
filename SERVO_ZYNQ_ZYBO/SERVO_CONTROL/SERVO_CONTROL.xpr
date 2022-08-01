@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="38" Path="D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/SERVO_CONTROL/SERVO_VIVADO/SERVO_CONTROL/SERVO_CONTROL.xpr">
+<Project Version="7" Minor="38" Path="D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/SERVO_CONTROL/Servo_Controller_Verilog/SERVO_ZYNQ_ZYBO/SERVO_CONTROL/SERVO_CONTROL.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="a32b5b4cc24b411a8cd29a7a8595d171"/>

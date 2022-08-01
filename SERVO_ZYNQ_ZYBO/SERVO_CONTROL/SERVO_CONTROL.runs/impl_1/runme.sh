@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/SERVO_CONTROL/SERVO_VIVADO/SERVO_CONTROL/SERVO_CONTROL.runs/impl_1'
+HD_PWD='D:/MASTER_2021/ADVANCED_VLSI/Verilog_Programs/SERVO_CONTROL/Servo_Controller_Verilog/SERVO_ZYNQ_ZYBO/SERVO_CONTROL/SERVO_CONTROL.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
+/bin/touch .init_design.begin.rst
 EAStep vivado -log Servo_2.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Servo_2.tcl -notrace
 
 

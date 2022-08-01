@@ -1,7 +1,0 @@
-Running: xsim.dir/Servo_2_behav/xsimk.exe -simmode gui -wdb Servo_2_behav.wdb -simrunnum 0 -socket 61838
-Design successfully loaded
-Design Loading Memory Usage: 7308 KB (Peak: 7308 KB)
-Design Loading CPU Usage: 46 ms
-Simulation completed
-Simulation Memory Usage: 16484 KB (Peak: 16484 KB)
-Simulation CPU Usage: 1417514 ms

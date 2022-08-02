@@ -51,7 +51,5 @@ This REPO intended for use in:
 ![Figure 4.1: seven segment decoder3 cells  diagram](https://github.com/eslamfayad/Servo_Controller/blob/main/Figures/7seg%20decoder.png)
 ![Figure 4.2: seven segment decoder circuit diagram](https://github.com/eslamfayad/Servo_Controller/blob/main/Figures/bcd_7seg.png)
 # Servo Multiplexer
-<br />
-<p align="center">
 ![Figure 5: Multiplexer diagram](https://github.com/eslamfayad/Servo_Controller/blob/main/Figures/servo%20mux.png)
 ![Figure 5.1: Multiplexer circuit diagram](https://github.com/eslamfayad/Servo_Controller/blob/main/Figures/8_bit%20control%20mux.png)

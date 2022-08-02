@@ -1,4 +1,5 @@
-# Servo_Controller
+<h1 align="center">Servo_Controller</h1>
+ 
 This REPO intended for use in SELECTED TOPICS 1 ,ADVANCED VLSI  in suez university 2021-2022 ->
 Supervised by DR/ EMAD BADRY 
 < / ////////////////////////////////////////////////////////////////////////////////////// Groups participate names
